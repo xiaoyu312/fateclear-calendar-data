@@ -1,0 +1,10 @@
+{
+  "name": "fateclear-calendar-data",
+  "private": true,
+  "version": "1.0.0",
+  "description": "1900–2100 solar terms, daily sexagenary (干支) pillars, lunar dates and China 1986–1991 DST. CC BY 4.0, by 拨云 FateClear.",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "scripts": { "build": "node scripts/generate.mjs", "verify": "node scripts/verify.mjs" },
+  "dependencies": { "astronomy-engine": "2.1.19", "tyme4ts": "1.5.3", "lunar-javascript": "1.7.7" }
+}
